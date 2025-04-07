@@ -1,0 +1,392 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.navbar__s1 {
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.navbar__s1 h1 {
+    background-color: #34E0A1;
+    height: 40px;
+    width: 45px;
+    position: relative;
+    border-radius: 50%;
+
+
+
+}
+
+.navbar__s1 img {
+    width: 2%;
+    position: absolute;
+    top: 35px;
+    left: 273px;
+}
+
+#navbar__title {
+    background-color: white;
+
+}
+
+.navbar__s2 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__s2 p {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar__s2__p:hover {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+
+
+}
+
+.navbar__s2__forum:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.navbar__s3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar__s3__btn {
+    width: 95px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+
+
+}
+
+.navbar__s3 img {
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.navbar__s3__btn:hover {
+    background-color: #F2F2F2;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.navbar__s3__btn--black {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.whereto {
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.whereto__s1 div:hover {
+    opacity: 0.5;
+    border-bottom: 2px solid black;
+
+}
+
+.whereto h1 {
+    font-weight: bolder;
+}
+
+.whereto__s1 {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.whereto__s1__search {
+    display: flex;
+    gap: 5px;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+
+}
+
+
+
+.whereto__s1__Hotels {
+    display: flex;
+    gap: 5px;
+
+}
+
+.whereto__s1__things {
+    display: flex;
+    gap: 5px;
+}
+
+.whereto__s1__restaurants {
+    display: flex;
+    gap: 5px;
+}
+
+.whereto__s1__flights {
+    display: flex;
+    gap: 5px;
+}
+
+.whereto__s1__holiday {
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
+
+
+.whereto__s2 {
+    margin-top: 20px;
+    display: flex;
+    width: 50%;
+    height: fit-content;
+    border: 1px solid #dedddd;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #EEEEEE;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25%;
+
+}
+
+.whereto__s2__btn {
+    background-color: #34E0A1;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.wheretp__s2__input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+
+.wheretp__s2__input:focus {
+
+    outline: none;
+}
+
+/* Big Center Image */
+
+.bigImage {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 75px;
+    position: relative;
+}
+
+.bigImage img {
+    width: 85%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* Big image card */
+
+.bigImage__card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35%;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    color: white;
+}
+
+.bigImage__card__beta{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.bigImage__card__beta--b{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bigImage__card__desc h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+.bigImage__card__desc p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bigImage__card__btn{
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    width: 50%;
+}
+
+.bigImage__card__btn i{
+    cursor: pointer;
+    margin-left: 10px;
+}
+.bigImage__card__btn button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.seaside{
+    padding: 75px;
+}
+.seaside h2{
+    margin-bottom: 10px;
+}
+.seaside p{
+    color: #BDBBBD;
+    font-weight: 500px;
+}
+.seaside__destination{
+    display: flex;
+    gap: 20px;
+}
+
+.seaside__card{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.seaside__card img{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+.seaside__card h3{
+    position: absolute;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+  bottom: 15px;
+  left: 10px;
+  font-weight: 800;
+  color: white;
+    
+}
+
+.seaside__card__wishlist{
+    display: flex;
+    position: relative;
+}
+.seaside__card__wishlist i{
+    position: absolute;
+    top: 25px;
+    background-color: white;
+    right: 10px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+/* Experiences */
+
+.experiences{
+    padding: 75px;
+    
+}
+.experiences h2{
+    margin-bottom: 10px;
+}
+.experiences p{
+    color: #BDBBBD;
+    font-weight: 500px;
+}
+.experiences__container{
+    display: flex;
+    gap: 20px;
+}
+
+
+.experiences__card{
+    width: 100%;
+    height: 60%;
+    margin: 5px;
+}
+.experiences__card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.experiences__card button{
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+}
+.experiences__card h4{
+margin-top: 5px;
+    font-size: 15px;
+}  
+
+.experiences__card__ratings{
+    margin-top: 40%;
+    display: flex;
+    gap: 3px;
+}
+
+#experiences__price {
+font-size: 12px;
+color: black;
+}
